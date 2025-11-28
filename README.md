@@ -1,46 +1,46 @@
-m🛒 E-Commerce Web Application (Django)
+🛒 E-Commerce Web Application (Django)
 
-A fully functional E-Commerce Web Application built using Django.
+->A fully functional E-Commerce Web Application built using Django.
 Users can browse products, add them to their cart, and place orders, while admins manage products, users, and orders through a dedicated dashboard.
 
 🚀 Features
 👤 User Features
 
-User Signup / Login / Logout
+*User Signup / Login / Logout
 
-Browse products by category
+*Browse products by category
 
-Search and filter products
+*Search and filter products
 
-View detailed product pages
+*View detailed product pages
 
-Add to cart / update quantity / remove items
+*Add to cart / update quantity / remove items
 
-Checkout with order summary
+*Checkout with order summary
 
-View past order history
+*View past order history
 
 🛠️ Admin Features
 
-Add / Edit / Delete products
+*Add / Edit / Delete products
 
-Manage categories
+*Manage categories
 
-Manage orders & order status
+*Manage orders & order status
 
-Manage users
+*Manage users
 
-Django Admin Panel
+*Django Admin Panel
 
 🏗️ Tech Stack
 
-Backend: Django
+*Backend: Django
 
-Frontend: HTML, CSS, Bootstrap
+*Frontend: HTML, CSS, Bootstrap
 
-Database: SQLite3
+*Database: SQLite3
 
-Tools: Django ORM, Django Templates, Session-based cart
+*Tools: Django ORM, Django Templates, Session-based cart
 
 📂 Project Structure
 E_Commerce_Web_Application/
@@ -77,26 +77,26 @@ Open the browser on:
 
 ⭐ Why This Project is Unique
 
-Clean and modular Django structure
+*Clean and modular Django structure
 
-Realistic features similar to real e-commerce websites
+*Realistic features similar to real e-commerce websites
 
-Fully functional cart + checkout system
+*Fully functional cart + checkout system
 
-Beginner-friendly and easy to extend
+*Beginner-friendly and easy to extend
 
-Admin dashboard for complete backend management
+*Admin dashboard for complete backend management
 
 📌 Future Enhancements
 
-Payment gateway (Razorpay / Stripe)
+*Payment gateway (Razorpay / Stripe)
 
-Wishlist feature
+*Wishlist feature
 
-Product reviews & ratings
+*Product reviews & ratings
 
-User profile dashboard
+*User profile dashboard
 
-Email notifications for orders
+*Email notifications for orders
 
 ❤️ Made with Django

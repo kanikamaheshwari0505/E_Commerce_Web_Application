@@ -1,25 +1,102 @@
-An E-commerce web application built using Django. This platform allows users to browse products, add them to their cart, and place orders securely. Admins can manage products, orders, and customers through a dedicated dashboard.
+m🛒 E-Commerce Web Application (Django)
 
-📌 Features
-🧑‍💼 User Authentication
+A fully functional E-Commerce Web Application built using Django.
+Users can browse products, add them to their cart, and place orders, while admins manage products, users, and orders through a dedicated dashboard.
 
-Signup, Login, Logout
-Password hashing and session management
+🚀 Features
+👤 User Features
 
-🛒 Product Catalog
+User Signup / Login / Logout
+
 Browse products by category
-Product search and filter functionality
 
-🛍️ Cart and Checkout
-Add/Remove items in the cart
-Dynamic cart update with quantity control
-Secure checkout with order summary
+Search and filter products
 
-📦 Order Management
-Track past orders
-Order confirmation and status update
+View detailed product pages
 
-🛠️ Admin Panel
-Add/Edit/Delete products
-Manage orders and user data
+Add to cart / update quantity / remove items
 
+Checkout with order summary
+
+View past order history
+
+🛠️ Admin Features
+
+Add / Edit / Delete products
+
+Manage categories
+
+Manage orders & order status
+
+Manage users
+
+Django Admin Panel
+
+🏗️ Tech Stack
+
+Backend: Django
+
+Frontend: HTML, CSS, Bootstrap
+
+Database: SQLite3
+
+Tools: Django ORM, Django Templates, Session-based cart
+
+📂 Project Structure
+E_Commerce_Web_Application/
+│── accounts/          # User authentication app
+│── shop/              # Products, categories, cart, orders
+│── templates/         # HTML templates
+│── static/            # CSS, JS, Images
+│── db.sqlite3         # Database
+│── manage.py          # Django management file
+│── requirements.txt   # Dependencies
+
+⚙️ How to Run the Project
+1️⃣ Clone the repository
+git clone https://github.com/kanikamaheshwari0505/E_Commerce_Web_Application.git
+cd E_Commerce_Web_Application
+
+2️⃣ Create virtual environment
+python -m venv venv
+source venv/bin/activate      # Mac/Linux
+venv\Scripts\activate         # Windows
+
+3️⃣ Install dependencies
+pip install -r requirements.txt
+
+4️⃣ Run migrations
+python manage.py migrate
+
+5️⃣ Run the server
+python manage.py runserver
+
+
+Open the browser on:
+👉 http://127.0.0.1:8000/
+
+⭐ Why This Project is Unique
+
+Clean and modular Django structure
+
+Realistic features similar to real e-commerce websites
+
+Fully functional cart + checkout system
+
+Beginner-friendly and easy to extend
+
+Admin dashboard for complete backend management
+
+📌 Future Enhancements
+
+Payment gateway (Razorpay / Stripe)
+
+Wishlist feature
+
+Product reviews & ratings
+
+User profile dashboard
+
+Email notifications for orders
+
+❤️ Made with Django
